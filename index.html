@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+    />
+    <link href="./css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-arrangement">
+        <nav class="div-ul-flex">
+          <div class="logo-flex">
+            <a href="/" class="logo-header">
+              Web<span class="logo-text">Studio</span></a
+            >
+          </div>
+          <ul class="navigation">
+            <li><a href="#" class="navigation-link-current">Студія</a></li>
+            <li>
+              <a href="./portfolio.html" class="navigation-link">Портфоліо</a>
+            </li>
+            <li>
+              <a href="#" class="navigation-link navigation-link-contacts">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="contact">
+          <li class="contact-flex">
+              <svg class="envelope contact-header">
+                  <use href="./images/symbol-defs-omg.svg#icon-envelope">
+                  </use>
+                </svg>          
+            <a href="mailto:info@devstudio.com" class="mail"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contact-flex">
+            <svg class="telephone contact-header">
+              <use href="./images/symbol-defs-omg.svg#icon-tel">
+              </use>
+            </svg>
+            <a href="tel:+380961111111" class="tel">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="main-section">
+        <h1 class="main-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+        <button type="button" class="buy-button" data-modal-open>Замовити послугу</button>
+      </section>
+      <section class="studio-benefits">
+        <h2 class="visually-hidden">Переваги нашої вебстудії</h2>
+        <ul class="studio-benefits-list">
+          <li class="studio-benefits-list-li anten">
+            <h3 class="studio-benefits-list-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="studio-benefits-list-text">
+              Ідейні міркування, і навіть початок повсякденної роботи з
+              формування позиції.
+            </p>
+          </li>
+          <li class="studio-benefits-list-li clock">
+            <h3 class="studio-benefits-list-title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="studio-benefits-list-text">
+              Завдання організації, особливо рамки і місце навчання кадрів тягне
+              у себе.
+            </p>
+          </li>
+          <li class="studio-benefits-list-li diagram">
+            <h3 class="studio-benefits-list-title">ПЛАНУВАННЯ</h3>
+            <p class="studio-benefits-list-text">
+              Так само консультація з широким активом значною мірою зумовлює.
+            </p>
+          </li>
+          <li class="studio-benefits-list-li astronaut">
+            <h3 class="studio-benefits-list-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="studio-benefits-list-text">
+              Значимість цих проблем настільки очевидна, що реалізація планових
+              завдань.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="our-work">
+        <h2 class="work">Чим ми займаємося</h2>
+        <ul class="work-list">
+          <li>
+            <img
+              src="./images/squooshcompressed/img-1а.jpg"
+              alt="Програми для планшетів"
+              width="370"
+            />
+            <h2 class="desktop-apps">ДЕСКТОПНІ ДОДАТКИ</h2>
+          </li>
+          <li>
+            <img
+              src="./images/squooshcompressed/img-2а.jpg"
+              alt="Програми для телефонів"
+              width="370"
+            />
+            <h2 class="desktop-apps">МОБІЛЬНІ ДОДАТКИ</h2>
+          </li>
+          <li>
+            <img
+              src="./images/squooshcompressed/img-3а.jpg"
+              alt="Якісний дизайн"
+              width="370"
+            />
+            <h2 class="desktop-apps">ДИЗАНЕРСЬКІ РІШЕННЯ</h2>
+          </li>
+        </ul>
+      </section>
+      <section class="team">
+        <div class="team-section">
+        <h2 class="our-team">Наша команда</h2>
+        <ul class="our-team-list">
+          <li class="social-links">
+            <img
+              src="./images/squooshcompressed/img-4б.jpg"
+              alt="Фото Ігор Дем'яненко"
+              width="270"
+            />
+            <div class="photo-footer">
+            <h3 class="our-team-names">Product Designer</h3>
+            <p class="our-team-positions">Ігор Дем'яненко</p>
+            </div>
+            <ul class="social-links-footer">
+                <li class="social-links-footer-lis">
+                  <a href="https://www.google.com/" class="social-links-footer-lis-link">
+                    <svg class="social-links-footer-img" width="20px" height="20px">
+                      <use href="./images/symbol-defs-omg.svg#icon-instagram">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-links-footer-lis">
+                  <a href="https://www.google.com/" class="social-links-footer-lis-link">
+                    <svg class="social-links-footer-img" width="20px" height="20px">
+                      <use href="./images/symbol-defs-omg.svg#icon-twitter">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-links-footer-lis">
+                  <a href="https://www.google.com/" class="social-links-footer-lis-link">
+                    <svg class="social-links-footer-img" width="20px" height="20px">
+                      <use href="./images/symbol-defs-omg.svg#icon-facebook">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-links-footer-lis">
+                  <a href="https://www.google.com/" class="social-links-footer-lis-link">
+                    <svg class="social-links-footer-img" width="20px" height="20px">
+                      <use href="./images/symbol-defs-omg.svg#icon-linkedin">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+          </li>
+          <li class="social-links">
+            <img
+              src="./images/squooshcompressed/img-5б.jpg"
+              alt="Фото Ольга Рєпіна"
+              width="270"
+            />
+            <div class="photo-footer">
+            <h3 class="our-team-names">Frontend Developer</h3>
+            <p class="our-team-positions">Ольга Рєпіна</p>
+            </div>
+            <ul class="social-links-footer">
+              <li class="social-links-footer-lis">
+                <a href="https://www.google.com/" class="social-links-footer-lis-link">
+                  <svg class="social-links-footer-img" width="20px" height="20px">
+                    <use href="./images/symbol-defs-omg.svg#icon-instagram">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-links-footer-lis">
+                <a href="https://www.google.com/" class="social-links-footer-lis-link">
+                  <svg class="social-links-footer-img" width="20px" height="20px">
+                    <use href="./images/symbol-defs-omg.svg#icon-twitter">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-links-footer-lis">
+                <a href="https://www.google.com/" class="social-links-footer-lis-link">
+                  <svg class="social-links-footer-img" width="20px" height="20px">
+                    <use href="./images/symbol-defs-omg.svg#icon-facebook">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-links-footer-lis">
+                <a href="https://www.google.com/" class="social-links-footer-lis-link">
+                  <svg class="social-links-footer-img" width="20px" height="20px">
+                    <use href="./images/symbol-defs-omg.svg#icon-linkedin">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="social-links">
+            <img
+              src="./images/squooshcompressed/img-6б.jpg"
+              alt="Фото Микола Тарасов"
+              width="270"
+            />
+            <div class="photo-footer">
+            <h3 class="our-team-names">Marketing</h3>
+            <p class="our-team-positions">Микола Тарасов</p>
+            </div>
+            <ul class="social-links-footer">
+              <li class="social-links-footer-lis">
+                <a href="https://www.google.com/" class="social-links-footer-lis-link">
+                  <svg class="social-links-footer-img" width="20px" height="20px">
+                    <use href="./images/symbol-defs-omg.svg#icon-instagram">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-links-footer-lis">
+                <a href="https://www.google.com/" class="social-links-footer-lis-link">
+                  <svg class="social-links-footer-img" width="20px" height="20px">
+                    <use href="./images/symbol-defs-omg.svg#icon-twitter">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-links-footer-lis">
+                <a href="https://www.google.com/" class="social-links-footer-lis-link">
+                  <svg class="social-links-footer-img" width="20px" height="20px">
+                    <use href="./images/symbol-defs-omg.svg#icon-facebook">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-links-footer-lis">
+                <a href="https://www.google.com/" class="social-links-footer-lis-link">
+                  <svg class="social-links-footer-img" width="20px" height="20px">
+                    <use href="./images/symbol-defs-omg.svg#icon-linkedin">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="social-links">
+            <img
+              src="./images/squooshcompressed/img-7б.jpg"
+              alt="Фото Михайло Єрмаков"
+              width="270"
+            />
+            <div class="photo-footer">
+            <h3 class="our-team-names">UI Designer</h3>
+            <p class="our-team-positions">Михайло Єрмаков</p>
+            </div>
+            <ul class="social-links-footer">
+              <li class="social-links-footer-lis">
+                <a href="https://www.google.com/" target="_blank"
+                rel="nofollow noreferrer noopener" class="social-links-footer-lis-link">
+                  <svg class="social-links-footer-img" width="20px" height="20px">
+                    <use href="./images/symbol-defs-omg.svg#icon-instagram">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-links-footer-lis">
+                <a href="https://www.google.com/" target="_blank"
+                rel="nofollow noreferrer noopener" class="social-links-footer-lis-link">
+                  <svg class="social-links-footer-img" width="20px" height="20px">
+                    <use href="./images/symbol-defs-omg.svg#icon-twitter">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-links-footer-lis">
+                <a href="https://www.google.com/" target="_blank"
+                rel="nofollow noreferrer noopener" class="social-links-footer-lis-link">
+                  <svg class="social-links-footer-img" width="20px" height="20px">
+                    <use href="./images/symbol-defs-omg.svg#icon-facebook">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-links-footer-lis">
+                <a href="https://www.google.com/" target="_blank"
+                rel="nofollow noreferrer noopener" class="social-links-footer-lis-link">
+                  <svg class="social-links-footer-img" width="20px" height="20px">
+                    <use href="./images/symbol-defs-omg.svg#icon-linkedin">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <section class="main-clients">
+      <div class="main-clients-container">
+      <h2 class="main-clients-title">Постійні клієнти</h2>
+      <ul class="main-clients-list">
+        <li class="main-clients-list-item">
+        <svg class="main-clients-list-item-brand" width="106px" height="60px">
+          <use href="./images/symbol-defs-omg.svg#icon-brand1">
+          </use>
+        </svg>
+        </li>
+        <li class="main-clients-list-item">
+            <svg class="main-clients-list-item-brand" width="106px" height="60px">
+              <use href="./images/symbol-defs-omg.svg#icon-brand2">
+              </use>
+            </svg>
+        </li>
+        <li class="main-clients-list-item">
+          <svg class="main-clients-list-item-brand" width="106px" height="60px">
+            <use href="./images/symbol-defs-omg.svg#icon-brand3">
+            </use>
+          </svg>
+        </li>
+        <li class="main-clients-list-item">
+          <svg class="main-clients-list-item-brand" width="106px" height="60px">
+            <use href="./images/symbol-defs-omg.svg#icon-brand4">
+            </use>
+          </svg>
+        </li>
+        <li class="main-clients-list-item">
+          <svg class="main-clients-list-item-brand" width="106px" height="60px">
+            <use href="./images/symbol-defs-omg.svg#icon-brand5">
+            </use>
+          </svg>
+        </li>
+        <li class="main-clients-list-item">
+          <svg class="main-clients-list-item-brand" width="106px" height="60px">
+            <use href="./images/symbol-defs-omg.svg#icon-brand6">
+            </use>
+          </svg>
+        </li>
+      </ul>
+      </div>
+    </section>
+    </main>
+
+    <footer class="footer footer-columns">
+      <div class="first-column">
+        <a href="/" class="logo-header">
+          Web<span class="logo-text-footer">Studio</span></a
+        >
+        <address>
+          <ul class="footer-adress-list">
+            <li>
+              <a
+                class="actual-adress"
+                href="https://goo.gl/maps/NjYtRDWVCfa7fZA99"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
+            <li>
+              <a class="tel-footer" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+            <li>
+              <a class="mail-footer" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+
+      <section class="join">
+        <h2 class="join-title">ПРИЄДНУЙТЕСЬ</h2>
+        <ul class="join-list">
+          <li class="social-links-footer-lis-join">
+              <a href="https://www.google.com/" class="G">
+                <svg class="social-links-footer-img-join" width="20px" height="20px">
+                  <use href="./images/symbol-defs-omg.svg#icon-instagram">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-links-footer-lis-join">
+              <a href="https://www.google.com/" class="G">
+                <svg class="social-links-footer-img-join" width="20px" height="20px">
+                  <use href="./images/symbol-defs-omg.svg#icon-twitter">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-links-footer-lis-join">
+              <a href="https://www.google.com/" class="G">
+                <svg class="social-links-footer-img-join" width="20px" height="20px">
+                  <use href="./images/symbol-defs-omg.svg#icon-facebook">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-links-footer-lis-join">
+              <a href="https://www.google.com/" class="G">
+                <svg class="social-links-footer-img-join" width="20px" height="20px">
+                  <use href="./images/symbol-defs-omg.svg#icon-linkedin">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            </ul>
+        </ul>
+      </section>
+    </footer>
+    <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="close-modal" data-modal-close>Закрити </button>
+    </div>
+    </div>
+  <script src="./js/modal.js"></script>
+  </body>
+</html>
+
